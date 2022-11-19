@@ -1,0 +1,90 @@
+.hero {
+    background-image: url(images/hero-back.png);
+    height: 51.11vw;
+    background-position-x: 36%;
+    padding: 0 130px;
+    box-shadow: inset 0 0 0 50vmax rgb(0 0 0 / 50%);
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    width: 10vw;
+    height: 9vw;
+    display: block;
+    background-position: center;
+    background-size: 150%;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    align-items: center;
+}
+
+.phone-btn {
+    padding: 5px 20px;
+    width: 226.68px;
+    height: 44px;
+    border: 1px solid #DBA069;
+    border-radius: 3px;
+    line-height: 24px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+
+.phone-btn::before {
+    background-image: url(images/icons/phone.svg);
+    content: "";
+    height: 23px;
+    width: 23px;
+    display: inline-block;
+    transform: translate(-10px, 4px);
+
+}
+
+.viber-btn {
+    background-image: url(images/icons/whatsapp.svg);
+    width: 26px;
+    height: 26px;
+    display: block;
+}
+
+.hero header ul {
+    display: flex;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 115px 0 20px;
+}
+
+h1+a {
+    padding: 20px 30px;
+    height: 65px;
+    width: 245px;
+    background: #DBA069;
+    font-size: 18px;
+    color: #333333;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.hero h3 {
+    font-size: 32px;
+}
